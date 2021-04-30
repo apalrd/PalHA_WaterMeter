@@ -1,5 +1,5 @@
-#include "mqtt_client.h"
 #pragma once
+#include "mqtt_client.h"
 
 /* Configure MQTT for the project */
 #define MQTT_BROKER_URL "mqtt://telstar.palnet.net:1883"
