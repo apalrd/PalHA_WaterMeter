@@ -26,8 +26,9 @@ static const char *TAG = "main";
 
 /* Input pin definitions */
 static const gpio_num_t SENSE_PINS[] = {
-    GPIO_NUM_2,
-    GPIO_NUM_34,
+    GPIO_NUM_35,    /* Cold sensor */
+    GPIO_NUM_36,    /* Hot sensor */
+    GPIO_NUM_34,    /* Pushbutton on PCB (not a sensor) */
 };
 #define SENSE_PIN_NUM (sizeof(SENSE_PINS)/sizeof(gpio_num_t))
 
